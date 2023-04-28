@@ -1,0 +1,17 @@
+.b1{
+    margin-left: 500px;
+    margin-top: 0;
+}
+.b2:hover{
+    background: white;
+    color: black;
+}
+.basicb1{
+    border-radius: 8px;
+}
+.bdetails{
+    padding: 6px;
+    border: 0.5px solid black;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
