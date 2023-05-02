@@ -1,8 +1,11 @@
 import React from "react";
 
+
 function Header() {
+
   return (
     <div className="header">
+
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a style={{fontFamily:'fantasy',letterSpacing:'1px'}} class="navbar-brand" href="#">
@@ -28,7 +31,7 @@ function Header() {
                 <button className="btn btn-light me-2">Employee</button>
               </li>
               <li class="nav-item">
-                <button className="btn btn-primary me-2">Assets</button>
+                <button className="btn btn-light me-2">Assets</button>
               </li>
               <li class="nav-item">
                 <button className="btn btn-light me-2">Manage</button>
@@ -39,7 +42,7 @@ function Header() {
             </ul>
 
             <div className="d-flex">
-             <i class="fa fa-map-marker me-5" aria-hidden="true"></i>&nbsp;&nbsp;
+            <i class="fa-sharp fa-solid fa-location-dot me-5"></i>&nbsp;&nbsp;
              <i class="fa fa-search me-5" aria-hidden="true"></i>
              <i class="fa fa-bell me-5" aria-hidden="true"></i>
              <i class="fa fa-user me-1" aria-hidden="true"></i><h6 className="text-warning">Denish</h6>

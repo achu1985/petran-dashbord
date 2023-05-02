@@ -8,8 +8,8 @@ function App() {
     <div className="App">
       <Header/>
         <div className='row'>
-          <div className='col-4'><Sidebar/></div>
-          <div className='col-8'><Content/></div>
+          <div className='col-3'><Sidebar/></div>
+          <div className='col-9'><Content/></div>
         </div>
     </div>
   );
